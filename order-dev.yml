@@ -15,3 +15,5 @@ eureka:
     prefer-ip-address: true
 env:
   dev
+label:
+  release
