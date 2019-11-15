@@ -3,7 +3,7 @@ zuul:
     myProduct:   # 这个可以随便写
        path: /myProduct/**
        serviceId: product
-      sensitiveHeaders:     # 默认 "Cookie", "Set-Cookie", "Authorization" 把这三个去掉，改为空后才能传递Cookie
+       sensitiveHeaders:     # 默认 "Cookie", "Set-Cookie", "Authorization" 把这三个去掉，改为空后才能传递Cookie
     # 简洁写法
 #    product: /myProduct/**
   # 排除路由的url
