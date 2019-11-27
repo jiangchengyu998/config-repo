@@ -1,4 +1,5 @@
 zuul:
+  sensitive-headers:   # 全部服务忽略敏感头
   routes:
     myProduct:   # 这个可以随便写
        path: /myProduct/**
