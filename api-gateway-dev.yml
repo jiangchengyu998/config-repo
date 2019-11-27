@@ -13,4 +13,7 @@ zuul:
 management:
   security:
     enabled: false  # 加上这个就可以使用  /application/routes 查看映射地址
-    
+spring:
+  redis:
+    host: 47.105.169.153
+    port: 3308
