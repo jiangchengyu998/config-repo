@@ -3,10 +3,10 @@ spring:
     name: order
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    username: jiangchengyu998
-    password: jiangchengyu998
-    url: jdbc:mysql://192.168.149.10:3306/springcloud_shell?characterEncoding=utf-8&useSSL=false
-    # url: jdbc:mysql://192.168.0.6:3306/springcloud_shell?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+#     url: jdbc:mysql://192.168.149.10:3306/springcloud_shell?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://localhost:3306/springcloud_shell?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
   rabbitmq:
@@ -15,8 +15,8 @@ spring:
     password: guest
     username: guest
   redis:
-    host: 47.105.169.153
-    port: 3308
+    host: localhost
+    port: 6379
 env:
   dev
 girl:
