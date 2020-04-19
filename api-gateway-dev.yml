@@ -12,7 +12,7 @@ zuul:
     - /**/product/listForOrder
 management:
   security:
-    enabled: false  # 加上这个就可以使用  /application/routes 查看映射地址
+    enabled: true  # 加上这个就可以使用  /application/routes 查看映射地址
 spring:
   redis:
     host: localhost
